@@ -14,7 +14,7 @@ movies_db = {"Chava"       :["Vicky Kaushal","Smriti Mandana","Akshay Khanna","V
 print(len(movies_db))
 print(type(movies_db))
 
-for movie , casts in movies_db.items():
+for movie, casts in movies_db.items():
     if "Sanjay Dutt" in casts:
         print(movie)
 
